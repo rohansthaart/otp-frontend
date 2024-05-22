@@ -1,0 +1,36 @@
+.heading-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.otp-submit-button {
+  background-color: #100249;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border-radius: 4px;
+  padding: 14px 40px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.otp-input {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 4px;
+
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.otp-input.invalid {
+  border: 2px solid red;
+}
+
+
+.error-text {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
